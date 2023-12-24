@@ -84,3 +84,19 @@ body{
 .box8:hover{
     transform: rotate3d(1,1,1,45deg);
 }
+.box9{
+    position: absolute;
+    top: 500px;
+    transition: transform 1s ease-in;
+}
+.box9:hover{
+    transform: translate(20px,20px);
+}
+.box10{
+    position: absolute;
+    top: 560px;
+    transition: transform 1s ease-in;
+}
+.box10:hover{
+    transform:translate(-20px,-20px);
+}
