@@ -10,7 +10,7 @@
     }
     function initEvents(){
         openBtn.addEventListener('click',toogleMenu);
-        if(closeBtn){
+        if(closeBtn){/*check if closeBtn is existing*/ 
             closeBtn.addEventListener('click',toogleMenu);
         }
         content.addEventListener('click',function(e){
@@ -23,12 +23,12 @@
 
     function toogleMenu(){
         if(isOpen){
-            bodyEl.classList.remove('show-menu')
+            bodyEl.classList.remove('show-menu');
         }else{
             bodyEl.classList.add('show-menu');
     
         }
-        isOpen=!isOpen;
+        isOpen= !isOpen;
     }
     init();
 })()
